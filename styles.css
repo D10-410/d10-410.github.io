@@ -65,7 +65,16 @@ a{
     transition: transform 0.3s, box-shadow 0.3s;
     margin: auto;
 }
-
+.dorm-profile {
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    justify-content: space-around;
+}
+.dorm-profile:hover,
 .profile:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -138,7 +147,6 @@ a{
 }
 
 .navbar {
-    position: sticky;
     margin: 0 auto 20px auto;
     background-color: #eee;
     border-radius: 10px;
@@ -146,6 +154,7 @@ a{
     display:flex;
     justify-content: space-around;
 }
+
 
 
 .nav-item a {
