@@ -195,3 +195,28 @@ footer p {
 html {
     scroll-behavior: smooth;
 }
+
+details {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+details:hover {
+    background-color: #ddd;
+}
+
+details summary {
+    text-align: center;
+    cursor: pointer;
+}
+
+details[open] summary {
+    font-size: larger;
+    color: #555;
+    font-weight: bold;
+    margin-top: 20px;
+}
